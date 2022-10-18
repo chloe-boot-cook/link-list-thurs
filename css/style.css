@@ -1,38 +1,87 @@
 body{
-    margin:0;
+    background-image: url("../images/maxim-hopman-52Kf36w124Y-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+#flower{
+    position:absolute;
+    width: 100px;
+    left: 70px;
+    top: 65px;
+
+}
+
+#triangle{
+    position: absolute;
+    width: 175px;
+    left: 300px;
+    top: 35px;
+
+}
+
+#sun{
+    position: absolute;
+    width: 100px;
+    left: 600px;
+    top: 65px;
+
+}
+
+#tattoo-machine{
+    position: absolute;
+    width: 450px;
+    right: -150px;
+    bottom: -460px;
+
+}
+
 h1{
     line-height: 100px;
     margin-left: 20px;
-    font-family: 'BIZ UDPMincho', serif;
+    top: 10px;
+    font-family: 'Reem Kufi', sans-serif;
     font-weight: 400;
     font-size: 56px;
     margin-top: 0;
     margin-bottom: 0;
+    color: rgba(236, 236, 236, 0.911);
 }
 
 h4{
-    margin-left: 20px;
+    margin-left: 235px;
+    margin-right: 200px;
     margin-top: 20px;
     margin-bottom: 0;
-    font-family: 'BIZ UDPMincho', serif;
+    font-family: 'Reem Kufi', sans-serif;
     font-weight: 200;
     text-transform: capitalize;
-    font-size: 24px;
+    font-size: 35px;
 }
 
 p{
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 130px;
     scroll-margin-bottom: 0;
-    font-family: 'BIZ UDPMincho', serif;
-    font-weight: 100;
-    font-size: 15px;
-    column-count: 2;
+    font-family: 'Poiret One', cursive;
+    font-weight: 200;
+    font-size: 18px;
+    column-count: 3;
+    color: rgba(255, 255, 253, 0.836);
 }
+
+h3{
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: -10px;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 24px;
+    color:rgb(232, 236, 240);
+}
+
 a{
     text-decoration: none;
-    color:black;
+    color:rgb(207, 200, 200);
 }
 a:hover{
     color: white;
@@ -40,7 +89,12 @@ a:hover{
 a p{
     background-color: rgba(255, 255, 255, 0);
     transition: .5s;
-    width: 360px
+    width: 360px;
+    column-count: 1;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 a p:hover{
     background-color: black;
@@ -51,19 +105,19 @@ a p:active{
 
 #container{
     width: 800px;
-    height: 1075px;
-    background-image: url("../images/photo-bkg.jpg");
+    height: 580px;
     background-repeat: no-repeat;
     background-size: fixed;
     background-position: top;
-    background-color: rgb(172, 175, 123);
+    background-color: rgba(32, 32, 32, 0.493);
     margin-left: auto;
     margin-right: auto;
 }
 
 #masthead{
     height: 100px;
-    background-image: url("../images/buddha.jpg");
+    margin-top: 30px;
+    background-color: black;
     background-repeat: no-repeat;
     /*background-attachment: fixed; */
     background-size: cover;
@@ -73,17 +127,20 @@ a p:active{
 
 #content-holder{
     position: relative;
+
+}
+
+#container2{
+    width: 800px;
+    height: 750px;
+    background-color: rgba(32, 32, 32, 0.925);
+    background-position: top;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 #links-block{
     width: 50%
-}
-
-#trans-flower{
-    position: absolute;
-    width: 400px;
-    right: 10px;
-    bottom: -5px;
-
-
 }
